@@ -4,7 +4,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ById;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -45,10 +44,22 @@ public class CucumberFirstDayStep {
 		 String attribute = valid.getAttribute("value");
 		 Assert.assertTrue("SAM",attribute.contains("Hello Ezhilragul!"));
 	  
-	  driver.quit();
+	 // driver.quit();
+	  
+		 
+		 System.out.println("============");
+		 
+		 System.out.println("GIT OPERATIONS");
+		 
+		 System.out.println("addd on");
+		 
+		 
+		 
+		 
+	  
 	}
 	
-	
+
 	
 	
 	
